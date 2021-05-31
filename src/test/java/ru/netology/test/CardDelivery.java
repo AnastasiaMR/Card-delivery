@@ -35,6 +35,7 @@ public class CardDelivery {
     @Test
     void shouldTestSuccessOrderIfCorrectFilling() {
         String date = setDate(3);
+
         $("[data-test-id='city'] .input__control").setValue("Волгоград");
         $("[data-test-id='date'] .input__control").doubleClick();
         $("[data-test-id='date'] .input__control")
